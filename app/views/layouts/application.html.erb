@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Meta Tags -->
+  <title><%= yield(:title) %></title>
+  <meta http-equiv="content-language" content="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fotini's Restaurant and Bar, located in Bolton MA 01740, 978-365-5757" />
+  <meta name="keywords" content="Bolton, Restaurant, Bar, Fotini's, 01740, 978-365-5757, Tom, Fotini, Kessaris, American, Greek, food, restaurant jobs, menu, about, history, kids, pizza, seafood, bbq, barbeque, italian, pasta, ma, massachusetts, New England, town, eatery, grill, grille, pub, " />
+  <meta name="msvalidate.01" content="AA448567FD9A4B5E5F0C4B7ABB9EC237" />
+  <meta name="google-site-verification" content="DL2Vyb-qO34cKEjouEQx7ol4Y1hSnbPIrzq4nSYtTiQ" />
+  <meta name="author" content="Cody Burgess 2014" />
+
+  <!-- Styling -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 480px) and (max-width: 640px)" href="iphone.css" />
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= render "header" %>
+
+  <%= yield(:bg) %>
+
+  <div id="wrapper">
+    <div id="content">
+      <%= yield %>
+    </div>
+    <%= yield(:post_content) %>
+  </div>
+  
+  <%= render "footer" %>
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyACBKT4zSBjJFUSWVI5mWkn15sThO2Nnmw&sensor=false&extension=.js", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+</body>
+</html>

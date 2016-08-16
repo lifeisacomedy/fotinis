@@ -1,0 +1,40 @@
+<footer>
+  <div id="bgNav">
+    <ul>
+      <li><%= link_to("Appetizers", menu_path) %></li>
+      <li><%= link_to("Salads", menu_path) %></li>
+      <li><%= link_to("Favorites", menu_path) %></li>
+      <li><%= link_to("Seafood", menu_path) %></li>
+      <li><%= link_to("Specialties", menu_path) %></li>
+      <li><%= link_to("Pizza", menu_path) %></li>
+      <li><%= link_to("Desserts", menu_path) %></li>
+    </ul>
+
+    <div class="bg_line"></div>
+  </div>
+
+  <div id="footer_content">
+    <a href="index.html" class="logo_footer">
+    <%= link_to(root_path, 'data-no-turbolink' => true) do %>
+      <%= image_tag "logo_footer.png" %></a>
+      
+
+      <br>
+    <% end %>
+    <%= link_to("https://www.facebook.com/Fotinis.restaurant") do %>
+      <%= image_tag "facebook.png", size: "30x30" %>
+    <% end %>
+     <p> &nbsp; &nbsp; &nbsp; </p>
+
+    <%= link_to("https://plus.google.com/u/0/b/108001080560421728716/108001080560421728716/") do %>
+      <%= image_tag "google.png", size: "30x30" %>
+    <% end %>
+     <p> &nbsp; &nbsp; &nbsp; </p>
+
+    <%= link_to("http://www.yelp.com/biz/fotinis-restaurant-and-bar-bolton") do %>
+      <%= image_tag "yelp.png", size: "30x30" %>
+    <% end %>
+     <br>
+    <p id="copyright">&copy; <%= Time.now.year %> &ndash; All Rights Reserved</p>
+  </div>
+</footer>

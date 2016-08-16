@@ -1,0 +1,39 @@
+<% content_for :title, "Contact | Fotini's Restaurant and Bar - Bolton, MA" %>
+
+<% content_for :bg do %>
+  <div id="bg" class="normal"></div>
+<% end %>
+
+<%= render "logo" %>
+<div id="contact">
+  <div id="location_container">
+    <h2>contact info</h2>
+    <figure id="map"></figure>
+    <div class="address">
+    Fotini's Restaurant and Bar is located just minutes away from 495, and a short drive from Worcester or 290.<br><br> 
+    <span>Open Tuesday through Sunday from 4pm.</span><br><br>
+
+    <span class="bold">544 Wattaquadock Hill Rd,<br>Bolton, MA 01740</span>
+      <span class="phones_part">
+      Telephone: +1 978 365 5757<br><br><br>
+      E-mail:<br><a class="mailLink" href="mailto:info@fotinisrestaurant.com">info@fotinisrestaurant.com</a>
+    </span>
+    </div>
+  </div>
+
+  <div id="feedback_container">
+    <h2>feedback</h2>
+    <%= form_tag :action => "parse_contact" do %>
+      <%= text_field :form, :name, id: "name", placeholder: "Your Name" %>
+      <%= email_field :form, :email, id: "email", placeholder: "your@email.com" %>
+      <%= phone_field :form, :phone, id: "phone", placeholder: "(123) 456-7890" %>
+      <%= text_area :form, :message, id: "message" %>
+      <button id="clear">clear</button>
+      <%= submit_tag "send message", id: "submit" %>
+    <% end %>
+  </div>
+</div>
+
+<% content_for :post_content do %>
+  <div id="push"></div>
+<% end %>

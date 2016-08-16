@@ -1,0 +1,46 @@
+<header>
+  <div class="navbar">
+    <ul class="sf-menu">
+      <li>
+      <%= link_to(root_path, 'data-no-turbolink' => true) do %>
+        <div class="home active">home</div>
+      <% end %>
+      </li>
+      <li>
+      <%= link_to(menu_path, 'data-no-turbolink' => true) do %>
+        <div class="menu">menu</div>
+      <% end %>
+      </li>
+      <li>
+      <%= link_to(bar_path, 'data-no-turbolink' => true) do %>
+        <div class="bar">Bar</div>
+      <% end %>
+      </li>
+      <li>
+      <%= link_to(about_path) do %>
+        <div class="about_the_owner">About the owner</div>
+      <% end %>
+      </li>
+      <li>
+      <%= link_to(history_path, 'data-no-turbolink' => true) do %>
+        <div class="history">History</div>
+      <% end %>
+      </li>
+      <li>
+      <%= link_to(contact_path, 'data-no-turbolink' => true) do %>
+        <div class="contact">Contact</div>
+      <% end %>
+      </li>
+    </ul>
+  </div>
+  <div id="additional_coloring">
+    <div id="additional_coloring_container">
+      <div id="additional_coloring_1" class="header_color_bar"></div>
+      <div id="additional_coloring_2" class="header_color_bar"></div>
+      <div id="additional_coloring_3" class="header_color_bar"></div>
+      <div id="additional_coloring_4" class="header_color_bar"></div>
+      <div id="additional_coloring_5" class="header_color_bar"></div>
+      <div id="additional_coloring_6" class="header_color_bar"></div>
+    </div>
+  </div>
+</header>
