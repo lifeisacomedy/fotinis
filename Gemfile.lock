@@ -120,7 +120,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 1.1.4)
   puma
   rails (= 4.1.8)
   rails_12factor
