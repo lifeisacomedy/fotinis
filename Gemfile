@@ -1,6 +1,6 @@
 	source 'https://rubygems.org'
 #ruby upgrade on 2.17.2016
-ruby "2.2.4"
+ruby "2.3.7"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
