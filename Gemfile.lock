@@ -56,7 +56,7 @@ GEM
     multi_json (1.14.1)
     nio4r (2.5.2)
     pg (0.21.0)
-    puma (4.3.1)
+    puma (4.3.5)
       nio4r (~> 2.0)
     rack (1.5.5)
     rack-test (0.6.3)
