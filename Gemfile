@@ -1,6 +1,6 @@
 	source 'http://rubygems.org'
-#ruby upgrade on 2.17.2016
-ruby "2.3.7"
+#ruby upgrade on 10.26.2020
+ruby "2.6.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
