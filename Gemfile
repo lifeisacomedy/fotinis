@@ -1,6 +1,6 @@
 	source 'http://rubygems.org'
 #ruby upgrade on 10.26.2020
-ruby "2.7.0p0"
+ruby "2.6.3"
 # test this solution
 gem 'bigdecimal', '1.3.5'
 
