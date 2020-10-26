@@ -4,7 +4,7 @@ ruby "2.6.3"
 # test this solution
 gem 'bigdecimal', '1.3.5'
 
- Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
  gem 'rails', '4.1.8'
 # source 'https://rubygems.org'
 # gem 'rails', '4.2.4'
