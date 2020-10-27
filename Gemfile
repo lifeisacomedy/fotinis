@@ -10,8 +10,8 @@ gem 'bigdecimal', '1.3.5'
 # gem 'rails', '4.2.4'
 
 # Use postgresql as the database for Active Record
-# gem 'pg'
-gem 'pg', '~> 0.11'
+# gem 'pg' updated from 0.11 to 0.21.0
+gem 'pg', '~> 0.21.0'
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
