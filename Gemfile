@@ -5,9 +5,9 @@ ruby "2.6.3"
  gem 'bigdecimal', '1.3.5'
 
  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
- gem 'rails', '4.1.8'
+# gem 'rails', '4.1.8'
 # source 'https://rubygems.org'
-# gem 'rails', '4.2.4'
+ gem 'rails', '4.2.4'
 
 # Use postgresql as the database for Active Record
 # gem 'pg' updated from 0.11 to 0.21.0
