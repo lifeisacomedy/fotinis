@@ -2,7 +2,7 @@
 #ruby upgrade on 10.26.2020
 ruby "2.6.3"
 # test this solution
-gem 'bigdecimal', '1.3.5'
+# gem 'bigdecimal', '1.3.5'
 
  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
  gem 'rails', '4.1.8'
@@ -11,7 +11,7 @@ gem 'bigdecimal', '1.3.5'
 
 # Use postgresql as the database for Active Record
 # gem 'pg' updated from 0.11 to 0.21.0
-gem 'pg', '~> 0.21.0'
+gem 'pg', '~> 0.11'
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
