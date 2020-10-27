@@ -2,7 +2,7 @@
 #ruby upgrade on 10.26.2020
 ruby "2.6.3"
 # test this solution
-# gem 'bigdecimal', '1.3.5'
+ gem 'bigdecimal', '1.3.5'
 
  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
  gem 'rails', '4.1.8'
